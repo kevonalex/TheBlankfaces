@@ -1,3 +1,10 @@
+# This program allows the user to log into TikTok and like all content relating to hashtags specified by the user. The user can input multiple hashtags at once and can 
+# also control the number of posts liked by the program.
+#
+#
+# TODO: Convert file from .py to .exe for exporting and sending to client to use without dependence on Pycharm IDE.
+#       Add GUI for improved control/ functionality.
+
 import pyautogui as pygui
 import time
 import webbrowser
