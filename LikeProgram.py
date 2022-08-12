@@ -16,7 +16,7 @@ VideoCount = 5 # SET NO. OF VIDEOS THE PROGRAM SHOULD LIKE
 hashtags = "theblankfaces" # SET WHICH HASHTAGS TO FILTER BY (to set multiple hashtags just insert a space between them e.g. "#tbf #manchester"
 
 webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
-webbrowser.get('chrome').open_new_tab(url)
+webbrowser.get('chrome').open_new_tab(url)  # opens new chrome tab
 time.sleep(5)
 
 pygui.click(1538,125)  # clicks login button
